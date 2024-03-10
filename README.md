@@ -1,16 +1,25 @@
-Read me https://github.com/Philip28D/Bakery_store.git
+  Download and Install
+  
+1.Install Pycharm Community Edition: https://www.jetbrains.com/pycharm/download/
 
-3. Download si Instalare
-Cloneaza acest repository local, in folderul cu proiecte Python:
+2.Install Python: https://www.python.org/downloads/
 
- git clone https://github.com/BDCristina/Sweets_Market_Place.git
+3.Clone the repository locally:
+git clone https://github.com/Philip28D/Bakery_store.git
 
-Pentru a instala dependentele, ruleaza:
+4.Navigate to the project directory:
+cd path\repository
 
- pip install -r requirements.txt
+5.Install dependencies:
+pip install -r requirements.txt
 
-4. Dezvoltare unui proiect folosind framework-ul Django
-Instalare framework Django - va trebui sa va asigurati ca aveti instalat acest framework si sa rulati comanda de mai jos
-pip install django
+6.Set up the database:
+python manage.py migrate
+
+7.Create a superuser (admin):
+python manage.py createsuperuser
+
+8.Run the development server:
+python manage.py runserver
 
 ![AkyBakey](https://github.com/Philip28D/Bakery_store/assets/145504000/40b8ecd6-1590-49e3-a236-fbb4ea172eae)
