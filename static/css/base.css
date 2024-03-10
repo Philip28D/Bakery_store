@@ -1,0 +1,92 @@
+body { background-color: #ffe599;
+}
+
+.navbar{
+    background-color: rgb(222, 170, 136, 1) ! important;
+}
+
+.heading-title {
+    color: #805717;
+    font-size: 98px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: -4px;
+    align-items: center;
+}
+
+.spaced-top-5 {
+    margin-top: 5em;
+}
+
+.spaced-top-2 {
+    margin-top: 2em;
+}
+
+.btn-custom {
+    font-weight: bold;
+    background-color: #d4a842;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    color: #f8f9fa;
+}
+
+.btn-custom:hover {
+    background-color: #FFFFFF;
+    color: #616161;
+}
+
+.btn-custom-reverse {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #FFC300;
+    color: #FFC300;
+}
+
+.btn-custom-reverse:hover {
+    background-color: #FFC300;
+    color: #FFFFFF;
+}
+
+.brand-logo {
+    color: #ececed;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+a.navbar-brand:hover {
+    color: #805717;
+}
+
+a.nav-link {
+    color: #fff!important;
+}
+img.product-image {
+    height: 300px;
+}
+
+.review-title {
+    color: #805717;
+}
+
+.contact-button {
+    background-color: #74579f!important;
+    color: #fff!important;
+}
+
+.cart-text {
+    color: #ad7926 !important;
+    font-size: 20px;
+}
+
+.price-text {
+    color:
+}
+.bgwhite {
+    background-color: #000000 !important;
+}

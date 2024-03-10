@@ -1,0 +1,19 @@
+{% extends "app_bakerystore/base.html" %}
+
+{% block content %}
+<div class="container spaced-top-5 black-bg">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <h1 class="heading-title">From our oven to your heart.</h1>
+            </div>
+            <a href="{% url 'app_bakerystore:products' %}">
+                <button class="btn-custom spaced-top-2">See the products</button>
+            </a>
+        </div>
+        <div class="col">
+            {% include "app_bakerystore/carousel.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
